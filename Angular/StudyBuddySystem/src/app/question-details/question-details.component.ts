@@ -17,15 +17,12 @@ export class QuestionDetailsComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    const id = this.route.snapshot.paramMap.get('id');
-    if (id) {
-      this.apiService.getQuestion(Number(id)).subscribe(
-        (response: Question) => {
-          this.question = response;
-        }
-      );
+    const questionId = this.route.snapshot.paramMap.get('id');
+    if (questionId) {
+      this.apiService.getQuestion(Number(questionId)).subscribe((question) => {
+        this.question = question;
+      });
     }
   }
 }
-
 

@@ -3,16 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { QuestionListComponent } from './question-list/question-list.component';
+import { QuestionsListComponent } from './question-list/question-list.component';
 import { QuestionDetailsComponent } from './question-details/question-details.component';
 import { FavoritesListComponent } from './favorites-list/favorites-list.component';
 import { AddQuestionComponent } from './add-question/add-question.component';
 import { HttpClientModule } from '@angular/common/http';
+import { RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    QuestionListComponent,
+    QuestionsListComponent,
     QuestionDetailsComponent,
     FavoritesListComponent,
     AddQuestionComponent
@@ -20,7 +22,9 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    RouterModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
