@@ -3,14 +3,10 @@
   <li *ngFor="let question of questions">
     <a [routerLink]="['/questions', question.id]">{{ question.questionTitle }}</a>
     <button (click)="addToFavorites(question)">Add to Favorites</button>
+    <button (click)="removeQuestion(question.id)">Remove question</button>
   </li>
 </ul>
 
-<div *ngFor="let question of questions">
-  <h3>{{ question.questionTitle }}</h3>
-  <p>{{ question.answer }}</p>
-  <button (click)="removeQuestion(question.id)">Remove</button>
-</div>
 
 <!-- Add a form for adding a new question -->
 <form (ngSubmit)="addQuestion()">
