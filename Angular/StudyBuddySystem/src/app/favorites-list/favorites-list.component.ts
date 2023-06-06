@@ -46,7 +46,6 @@ export class FavoritesListComponent implements OnInit {
 
     const favorite: Favorite = {
       id: 0,
-      userId: 1, // Replace with the actual user ID
       questionId: question.id
     };
 

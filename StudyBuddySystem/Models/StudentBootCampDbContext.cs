@@ -27,16 +27,13 @@ public partial class StudentBootCampDbContext : DbContext
     {
         modelBuilder.Entity<Favorite>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Favorite__3214EC0746F24122");
-
-            entity.Property(e => e.Id).ValueGeneratedNever();
+            entity.HasKey(e => e.Id).HasName("PK__Favorite__3214EC0722423B2B");
         });
 
         modelBuilder.Entity<Question>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Question__3214EC076BFD9ECC");
+            entity.HasKey(e => e.Id).HasName("PK__Question__3214EC07F985877A");
 
-            entity.Property(e => e.Id).ValueGeneratedNever();
             entity.Property(e => e.Answer).HasMaxLength(200);
             entity.Property(e => e.QuestionTitle).HasMaxLength(100);
         });

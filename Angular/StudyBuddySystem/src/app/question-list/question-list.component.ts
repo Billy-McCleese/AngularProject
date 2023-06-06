@@ -31,7 +31,7 @@ export class QuestionsListComponent implements OnInit {
   addToFavorites(question: Question): void {
     const favorite: Favorite = {
       id: 0, // Assign the appropriate ID
-      userId: 0, // Assign the appropriate user ID
+
       questionId: question.id
     };
   

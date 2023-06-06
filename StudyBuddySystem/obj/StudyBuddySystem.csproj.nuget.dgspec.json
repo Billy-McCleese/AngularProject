@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git\\StudyBuddySystem\\StudyBuddySystem\\StudyBuddySystem.csproj": {}
+    "C:\\AngularProject\\StudyBuddySystem\\StudyBuddySystem.csproj": {}
   },
   "projects": {
-    "C:\\Git\\StudyBuddySystem\\StudyBuddySystem\\StudyBuddySystem.csproj": {
+    "C:\\AngularProject\\StudyBuddySystem\\StudyBuddySystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\StudyBuddySystem\\StudyBuddySystem\\StudyBuddySystem.csproj",
+        "projectUniqueName": "C:\\AngularProject\\StudyBuddySystem\\StudyBuddySystem.csproj",
         "projectName": "StudyBuddySystem",
-        "projectPath": "C:\\Git\\StudyBuddySystem\\StudyBuddySystem\\StudyBuddySystem.csproj",
+        "projectPath": "C:\\AngularProject\\StudyBuddySystem\\StudyBuddySystem.csproj",
         "packagesPath": "C:\\Users\\billy\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\StudyBuddySystem\\StudyBuddySystem\\obj\\",
+        "outputPath": "C:\\AngularProject\\StudyBuddySystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\billy\\AppData\\Roaming\\NuGet\\NuGet.Config",

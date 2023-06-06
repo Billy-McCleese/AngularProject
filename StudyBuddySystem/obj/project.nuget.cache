@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6O/KmLI/xV7VyvPTg07VFWmOtyQXyclaQIOB2x3eG/9Zp/ujvTUS70U+0yQnXF5XhPWTP5IWEcXD6I+b5C40pQ==",
+  "dgSpecHash": "B5lu9u94lYpbW4C6Ci0D1Z7sf8mvfM0vLj5Kaq9Vq12lXQdZNkHtZeQoOP00rKwfhbS0SPH/3wcu0QS8brHCnw==",
   "success": true,
-  "projectFilePath": "C:\\Git\\StudyBuddySystem\\StudyBuddySystem\\StudyBuddySystem.csproj",
+  "projectFilePath": "C:\\AngularProject\\StudyBuddySystem\\StudyBuddySystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\billy\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\billy\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
