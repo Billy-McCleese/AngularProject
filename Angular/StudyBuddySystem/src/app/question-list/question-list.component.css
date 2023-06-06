@@ -1,0 +1,32 @@
+h2 {
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: aqua;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input {
+    padding: 5px;
+    border: 1px solid #8c2121;
+    border-radius: 4px;
+  }
+  
+  form {
+    margin-top: 20px;
+  }

@@ -4,6 +4,12 @@
     <a [routerLink]="['/questions', question.id]">{{ question.questionTitle }}</a>
     <button (click)="addToFavorites(question)">Add to Favorites</button>
     <button (click)="removeQuestion(question.id)">Remove question</button>
+    <button (click)="toggleAnswer(question)">
+      {{ isAnswerShown(question) ? 'Hide Answer' : 'Show Answer' }}
+    </button>
+    <div *ngIf="isAnswerShown(question)">
+      <p>{{ question.answer }}</p>
+    </div>  
   </li>
 </ul>
 
@@ -15,3 +21,4 @@
   <input type="text" [(ngModel)]="newQuestion.answer" name="answer" placeholder="Answer">
   <button type="submit">Add Question</button>
 </form>
+
