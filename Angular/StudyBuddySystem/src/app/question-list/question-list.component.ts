@@ -14,7 +14,10 @@ export class QuestionsListComponent implements OnInit {
     id: 0,
     questionTitle: '',
     answer: ''
+    
   };
+
+  shownAnswers: number[] = [];
 
   constructor(private apiService: ApiService) {}
 
@@ -27,6 +30,20 @@ export class QuestionsListComponent implements OnInit {
       this.questions = questions;
     });
   }
+
+  toggleAnswer(question: Question) {
+    const index = this.shownAnswers.indexOf(question.id);
+    if (index !== -1) {
+      this.shownAnswers.splice(index, 1);
+    } else {
+      this.shownAnswers.push(question.id);
+    }
+  }
+  isAnswerShown(question: Question): boolean {
+    return this.shownAnswers.includes(question.id);
+  }
+  
+
 
   addToFavorites(question: Question): void {
     const favorite: Favorite = {
