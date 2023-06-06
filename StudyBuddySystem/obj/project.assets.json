@@ -3907,7 +3907,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\billy\\.nuget\\packages\\": {}
+    "C:\\Users\\ARazaq\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -3915,11 +3915,11 @@
       "projectUniqueName": "C:\\AngularProject\\StudyBuddySystem\\StudyBuddySystem.csproj",
       "projectName": "StudyBuddySystem",
       "projectPath": "C:\\AngularProject\\StudyBuddySystem\\StudyBuddySystem.csproj",
-      "packagesPath": "C:\\Users\\billy\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\ARazaq\\.nuget\\packages\\",
       "outputPath": "C:\\AngularProject\\StudyBuddySystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\billy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ARazaq\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3927,7 +3927,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://artifactory.foc.zone/artifactory/api/nuget/v3/nuget-virtual": {}
       },
       "frameworks": {
         "net6.0": {
@@ -3989,7 +3990,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }
