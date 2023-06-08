@@ -10,6 +10,8 @@ import { AddQuestionComponent } from './add-question/add-question.component';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { NavigationComponent } from './navigation/navigation.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { FormsModule } from '@angular/forms';
     QuestionsListComponent,
     QuestionDetailsComponent,
     FavoritesListComponent,
-    AddQuestionComponent
+    AddQuestionComponent,
+    WelcomeComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
