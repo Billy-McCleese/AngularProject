@@ -53,4 +53,9 @@ export class FavoritesListComponent implements OnInit {
       this.favorites.push(newFavorite);
     });
   }
+
+  getQuestionTitle(questionId: number): string {
+    const question = this.questions.find(q => q.id === questionId);
+    return question ? question.questionTitle : '';
+  }
 }

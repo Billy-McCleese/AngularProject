@@ -43,4 +43,7 @@ export class ApiService {
   removeFavorite(id: number): Observable<any> {
     return this.http.delete<any>(`${this.apiUrl}/favorites/${id}`);
   }
+  getFavoriteQuestions():Observable<Favorite[]>{
+    return this.http.get<Favorite[]>(`${this.apiUrl}/favorites/`);
+  }
 }
